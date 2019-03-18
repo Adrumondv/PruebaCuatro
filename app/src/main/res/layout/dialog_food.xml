@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:padding="24dp"
+    android:gravity="center_vertical">
+
+    <EditText
+        android:inputType="text"
+        android:background="@android:color/white"
+        android:textColorHint="@android:color/black"
+        android:hint="Nombre del alimento"
+        android:id="@+id/nameEt"
+        android:textColor="@android:color/black"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:layout_weight="1"
+        android:padding="8dp"/>
+    <ImageButton
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/ic_search_category_default"
+        android:theme="@style/AppTheme"
+        android:id="@+id/saveBtn"
+        android:layout_width="57dp"
+        android:layout_height="57dp" />
+
+</LinearLayout>
